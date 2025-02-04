@@ -110,7 +110,7 @@ namespace Selu383.SP25.Api.Controllers
                 return NotFound("Theater was already deleted.");
             }
 
-            return Ok($"Theater with ID {id} was deleted successfully.");
+            return Ok($"Theater with ID {id} was deleted successfully."); 
         }
     }
 }
