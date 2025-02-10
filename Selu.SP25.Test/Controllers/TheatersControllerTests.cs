@@ -300,7 +300,6 @@ public class TheatersControllerTests
         //assert
         httpResponse.StatusCode.Should().Be(HttpStatusCode.NotFound, "we expect an HTTP 404 when calling DELETE /api/theaters/{id} with an invalid Id");
     }
-
     [TestMethod]
     public async Task DeleteTheater_ValidItem_ReturnsOk()
     {
